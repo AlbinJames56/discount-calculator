@@ -1,6 +1,8 @@
 
 import React, { useState } from 'react'
 import { Button } from 'react-bootstrap';
+import Container from 'react-bootstrap/Container';
+
 
 function Home() {
   const [price,setPrice]=useState('');
